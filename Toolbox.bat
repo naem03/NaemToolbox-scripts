@@ -28,11 +28,11 @@ cls
 echo =========================================================
 echo                 NAEM'S ULTIMATE TOOLBOX
 echo =========================================================
-echo [1] System Info & Optimization
+echo [1] System Info
 echo [2] Activation Tools
 echo [3] Software Management
 echo [4] Toolbox Utilities
-echo [5] Security & Lockdown
+echo [5] Security
 echo [6] Fun Features
 echo [7] Exit
 echo =========================================================
@@ -72,7 +72,7 @@ goto menu
 :activation
 cls
 echo =========================================================
-echo            WINDOWS & OFFICE ACTIVATION TOOLS
+echo             ACTIVATION TOOLS
 echo =========================================================
 %SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "& {irm 'https://get.activated.win' | iex}"
 pause
